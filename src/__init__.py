@@ -9,8 +9,9 @@ Package structure:
 - utils/: Utility functions
 """
 
-from .models import ArcFaceResNet50
-from .datasets import CFPLoader, OccludedLoader, create_cfp_dataloaders, create_occluded_dataloader
+# 不在包初始化时强制导入，避免子模块缺失导致整个包不可用
+# 需要时直接: from src.models.models.arcface_model import ArcFaceResNet50
+# 需要时直接: from src.datasets import CFPLoader, OccludedLoader
 
 __version__ = '2.0.0'
 __author__ = 'Your Name'

@@ -26,6 +26,9 @@ wheels/
 models/
 galleries/
 
+# Temporary results
+temp_results/
+
 # IDE
 .vscode/
 .idea/
@@ -53,3 +56,4 @@ ENV/
 # Dataset (optional, if you don't want to commit dataset)
 cfp-dataset/
 occluded/
+Dataset/

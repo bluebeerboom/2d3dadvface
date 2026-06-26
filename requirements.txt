@@ -1,5 +1,24 @@
+# Deep Learning Framework
 torch>=1.9.0
 torchvision>=0.10.0
+
+# Image Processing
 Pillow>=8.0.0
-tqdm>=4.60.0
+opencv-python>=4.5.0
 numpy>=1.20.0
+
+# Face Recognition & Detection
+insightface>=0.7.0
+onnxruntime>=1.20.0  # GPU加速支持
+albumentations>=2.0.0
+
+# ONNX Model Support
+onnx>=1.14.0
+
+# UI Framework
+#PyQt5>=5.15.0
+
+# Utilities
+tqdm>=4.60.0
+matplotlib>=3.5.0
+scikit-learn>=1.0.0
